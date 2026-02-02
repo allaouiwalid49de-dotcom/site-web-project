@@ -4,7 +4,6 @@ import { FaSearch, FaEnvelope, FaPhone } from "react-icons/fa";
 
 export default function Avocat() {
   const [baht, setbaht] = useState("");
-  const [selectAvocat, setSelectAvocat] = useState (null);
 
   const avocats = [
     { 
