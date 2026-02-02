@@ -56,7 +56,7 @@ ul.u .l {
 .HH {
     display: flex;
 }
-a {
+button {
     justify-content: space-evenly;
     text-decoration: none;
     color: #000000;
@@ -68,16 +68,17 @@ a {
     font-size: 8pt;
     font-family: 'Okaluera', sans-serif;
     border: 1px solid teal;
+    bottom:  13px;
 }
-.l a.ho {
+.l button.ho {
     color: rgb(0, 0, 0);
     padding: 15px;
 }
-  .l a.ho:hover {
+  .l button.ho:hover {
     background-color: #00023D;
     color: #ffffff;
 }  
-.l a:hover {
+.l button:hover {
     color: teal;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 5px 20px  rgb(92, 92, 92);
@@ -111,7 +112,7 @@ a {
     transition: clip-path .6s cubic-bezier(0.4, 0, 0.2, 1);
 
 } */
-a:hover::before {
+button:hover::before {
     clip-path: circle(100% at 50% 50%);
 }
 nav.n {

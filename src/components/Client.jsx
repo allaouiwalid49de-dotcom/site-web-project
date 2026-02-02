@@ -75,7 +75,7 @@ export default function Client() {
           onChange={(e) => setClient({ ...client, affaire: e.target.value })}
         />
 
-        <button type="submit">Ajouter</button>
+        <button className="j" type="submit">Ajouter</button>
       </form>
 
       {clientsFiltres.map(c => (

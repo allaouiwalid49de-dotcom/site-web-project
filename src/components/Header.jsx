@@ -19,19 +19,21 @@ export default function Header() {
         <nav className='n'>
           <ul className='u'>
             <li className='l'>
-              <a href="/" className='ho' onClick={(e) => { e.preventDefault(); setPage('home'); }}>
-                <FaHome /> HOME
-              </a>
-            </li>
-            <li className='l'>
-              <a href="/" className='ho' onClick={(e) => { e.preventDefault(); setPage('avocats'); }}>
-                <FaBalanceScale /> Avocats
-              </a>
-            </li>
-            <li className='l'>
-              <a href="#" className='ho' onClick={(e) => { e.preventDefault(); setPage('clients'); }}>
-                <FaUserTie /> Clients
-              </a> </li>
+  <button className='ho' onClick={() => setPage('home')}>
+    <FaHome /> HOME
+  </button>
+</li>
+<li className='l'>
+  <button className='ho' onClick={() => setPage('avocats')}>
+    <FaBalanceScale /> Avocats
+  </button>
+</li>
+<li className='l'>
+  <button className='ho' onClick={() => setPage('clients')}>
+    <FaUserTie /> Clients
+  </button>
+</li>
+
           </ul>
         </nav>
       </div>
