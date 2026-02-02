@@ -1,0 +1,82 @@
+/* Avocat.css */
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.moh {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+  width: 45%;
+  margin: auto;
+}
+
+.moh:hover {
+  box-shadow: 18px 18px 1px rgba(0,0,0,0.15);
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  transition: 0.5s ease-in;
+  transform: translateY(-10px);
+  color: white;
+}
+
+.moh img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.moh h3 {
+  margin: 5px 0;
+  font-size: 1.1em;
+  color: teal;
+}
+
+.moh p {
+  margin: 3px 0;
+  color: teal;
+  font-size: 0.9em;
+}
+
+.moh .cn {
+  margin-top: 10px;
+  padding: 7px 15px;
+  border: none;
+  background-color: #8f9eae;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.moh .cn:hover {
+  background-color: #0056b3;
+}
+
+input.inn {
+  padding: 8px 12px;
+  margin-bottom: 20px;
+  margin-left: 199px;
+  border-radius: 150px;
+  margin: auto;
+  border: none;
+  display: flex;
+  margin-top: 100px;
+  width: 200px;
+  background: white;
+  box-shadow: 0 10px 25px rgb(34, 15, 15);
+
+}
+input [placeholder="Rechercher"] {
+  text-align: center;
+  justify-content: center;
+
+}

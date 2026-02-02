@@ -1,0 +1,132 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.he2 {
+    /* background-color: rgb(255, 255, 255); */
+    width: 100%;
+    border-bottom: 1px solid black;
+    
+    height: 80px;
+    background-color: #FFE8EE;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+
+    display: flex;
+    box-shadow: 0 20px 10px #FFE8EE;
+}
+ 
+.hh1 {
+    color: rgb(0, 0, 0);
+    font-family: 'EightOne', sans-serif;
+    font-size: 30pt;
+   width: 50%;
+   padding: auto;
+   display: block;
+   margin: 15px;
+   position: fixed;
+   opacity: 100%;
+   font-weight: bolder;
+   padding-left: 80px;
+}
+span {
+    color: #b08d57;
+}
+.hh1 {
+    cursor: not-allowed;
+}
+
+ul.u {
+    text-align: center;
+    font-size: 10pt;
+    
+}
+ul.u .l {
+    text-align: center;
+
+    display: inline-block;
+    font-weight: bold;
+    justify-content: space-evenly;
+ padding-top: 30px;
+    padding-right: 10px;
+    
+
+}
+.HH {
+    display: flex;
+}
+a {
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: #000000;
+    padding: 15px; 
+    padding-left: auto;
+    padding-right: auto; 
+    border-radius: 50px;
+    position: relative;
+    font-size: 8pt;
+    font-family: 'Okaluera', sans-serif;
+    border: 1px solid teal;
+}
+.l a.ho {
+    color: rgb(0, 0, 0);
+    padding: 15px;
+}
+  .l a.ho:hover {
+    background-color: #00023D;
+    color: #ffffff;
+}  
+.l a:hover {
+    color: teal;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 20px  rgb(92, 92, 92);
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 0.5s ease;
+    border: 1px solid teal;
+}
+.l a:focus {
+    color: white;
+    background-color: teal;
+    box-shadow: 0 5px 20px  rgb(92, 92, 92);
+
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: 0.5s ease;
+    height: 290px;
+}
+
+.l .a:visited {
+    background-color: aqua;
+}
+/* a::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: #6200ea;
+    clip-path: circle(0% at 50% 50%);
+    transition: clip-path .6s cubic-bezier(0.4, 0, 0.2, 1);
+
+} */
+a:hover::before {
+    clip-path: circle(100% at 50% 50%);
+}
+nav.n {
+    position: fixed;
+    left: 25%;
+    width: 100%;
+}
+.a1 {
+    text-align: right;
+}
+@font-face {
+  font-family: 'goog';
+  src: url('../fonts/CaviarDreams_Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Okaluera';
+  src: url('../fonts/Montserrat-Bold.ttf') format('opentype');
+}
